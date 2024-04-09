@@ -1,0 +1,29 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "resource monitor cpu",
+   "width": "Half"
+  },
+  {
+   "chart": "resource monitor mem",
+   "width": "Half"
+  },
+  {
+   "chart": "resource monitor disc",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-04-09 13:25:21.994368",
+ "dashboard_name": "Monitor",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-04-09 13:41:57.956998",
+ "modified_by": "Administrator",
+ "module": "Resource Manager",
+ "name": "Monitor",
+ "owner": "Administrator"
+}
