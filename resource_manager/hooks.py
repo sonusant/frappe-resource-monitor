@@ -127,23 +127,25 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 # 	"all": [
 # 		"resource_manager.tasks.all"
 # 	],
 # 	"daily": [
 # 		"resource_manager.tasks.daily"
 # 	],
-# 	"hourly": [
+	"hourly": [
 # 		"resource_manager.tasks.hourly"
-# 	],
+        "resource_manager.resource_manager.doctype.resource_monitor.resource_monitor.main",
+        "resource_manager.resource_manager.doctype.resource_monitor.resource_monitor.delete_week_old_data"
+	]
 # 	"weekly": [
 # 		"resource_manager.tasks.weekly"
 # 	],
 # 	"monthly": [
 # 		"resource_manager.tasks.monthly"
 # 	],
-# }
+}
 
 # Testing
 # -------
