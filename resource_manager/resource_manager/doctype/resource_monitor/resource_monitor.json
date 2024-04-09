@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-07 18:45:34.253504",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cpu_usage",
+  "memory_usage",
+  "disk_usage",
+  "site_size",
+  "gunicorn_processes",
+  "date_time",
+  "is_bench_site",
+  "server_information",
+  "db_name",
+  "is_docker",
+  "disc_io",
+  "net_io"
+ ],
+ "fields": [
+  {
+   "fieldname": "cpu_usage",
+   "fieldtype": "Percent",
+   "label": "CPU Usage"
+  },
+  {
+   "fieldname": "memory_usage",
+   "fieldtype": "Percent",
+   "label": "Memory Usage"
+  },
+  {
+   "fieldname": "disk_usage",
+   "fieldtype": "Percent",
+   "label": "Disk Usage"
+  },
+  {
+   "fieldname": "site_size",
+   "fieldtype": "Data",
+   "label": "Site Size"
+  },
+  {
+   "fieldname": "gunicorn_processes",
+   "fieldtype": "Data",
+   "label": "Gunicorn PS"
+  },
+  {
+   "fieldname": "date_time",
+   "fieldtype": "Datetime",
+   "label": "Date Time"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_bench_site",
+   "fieldtype": "Check",
+   "label": "Is Bench"
+  },
+  {
+   "fieldname": "server_information",
+   "fieldtype": "Data",
+   "label": "Site Name"
+  },
+  {
+   "fieldname": "db_name",
+   "fieldtype": "Data",
+   "label": "DB Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_docker",
+   "fieldtype": "Check",
+   "label": "Is Docker"
+  },
+  {
+   "fieldname": "disc_io",
+   "fieldtype": "Data",
+   "label": "Disc I/O"
+  },
+  {
+   "fieldname": "net_io",
+   "fieldtype": "Data",
+   "label": "Net I/O"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-07 19:44:15.224403",
+ "modified_by": "Administrator",
+ "module": "Resource Manager",
+ "name": "Resource Monitor",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
